@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+      width: 100%;
+      height: 100vh;
+      box-sizing: border-box;
+      background-image: url(bg7.jpg);
+      background-size: cover;
+      background-position: center;
+  }
+  header .group{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+  }
+  .logo{
+      color: aliceblue;
+      font-size: 70px;
+      text-decoration: none;
+  }
+  .logo .group{
+      display: flex;
+  }
+  header .group ul{
+      list-style: none;
+  }
+  header .group ul li{
+      display: inline-block;
+      margin: 5px 15px;
+      font-size: 25px;
+  }
+  header .group ul li a{
+      text-decoration: none;
+      color: aliceblue;
+      transition: 0.2s;
+  }
+  header .group ul li a:hover{
+      text-decoration:underline;
+  }
+  .custom img{
+    width: 800px;
+    height: 500px;
+  }
+  .custom{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .custom p{
+    color: aliceblue;
+    font-size: 60px;
+  }

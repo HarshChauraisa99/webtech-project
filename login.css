@@ -1,0 +1,42 @@
+header{
+    padding-top: 60px;
+  }
+  
+  header .group{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+  }
+  .logo{
+      color: aliceblue;
+      font-size: 70px;
+      text-decoration: none;
+  }
+  .logo .group{
+      display: flex;
+  }
+  header .group ul{
+      list-style: none;
+  }
+  header .group ul li{
+      display: inline-block;
+      margin: 5px 15px;
+      font-size: 25px;
+  }
+  header .group ul li a{
+      text-decoration: none;
+      color: aliceblue;
+      transition: 0.2s;
+  }
+  header .group ul li a:hover{
+      text-decoration:underline;
+  }
+  .container{
+    font-size: 30px;
+  }

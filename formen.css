@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header .group{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+  }
+  .logo{
+      color: aliceblue;
+      font-size: 70px;
+      text-decoration: none;
+  }
+  .logo .group{
+      display: flex;
+  }
+  header .group ul{
+      list-style: none;
+  }
+  header .group ul li{
+      display: inline-block;
+      margin: 5px 15px;
+      font-size: 25px;
+  }
+  header .group ul li a{
+      text-decoration: none;
+      color: aliceblue;
+      transition: 0.2s;
+  }
+  header .group ul li a:hover{
+      text-decoration:underline;
+  }
+  /* ---------------------------products for men ------------------------------ */
+  .products{
+    width: 100%;
+    height: 140vh;
+    padding-top: 60px;
+  }
+  .products h1{
+    color: black;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  .products .box{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px 10px;
+  }
+  .products .box .card .image img {
+    width: 350px;
+    height: 400px;
+    padding-left: 20px;
+
+  }
+  p{
+    text-align: center;
+    color: black;
+    font-weight: 2em;
+    font-size: 30px;
+  }

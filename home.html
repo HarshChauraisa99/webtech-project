@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="group">
+            <a href="home.html" class="logo">Blackz</a>
+            <ul class="navigation">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="formen.html">For Men</a></li>
+                <li><a href="forwomen.html">For Women </a></li>
+                <li><a href="custom.html">Customization</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </div>
+        <!-- -----------------------------------------------------slide------------------------------------------ -->
+        <div class="slideshow-container">
+            <div class="mySlides">
+            <a href="l1.html"><img src="l1.jpg"></a>
+            <div class="text"></div>
+          </div>
+          
+          <div class="mySlides">
+            <a href="l2.html"><img src="l2.jpg"></a>
+            <div class="text"></div>
+          </div>
+          
+          <div class="mySlides">
+            <a href="l3.html"><img src="l3.jpg"></a>
+            <div class="text"></div>
+          </div>
+      
+          <div2 class="mySlides">
+            <a href="l4.html"><img src="l4.jpg"></a>
+            <div2 class="text"></div2>
+          </div2>
+      
+          <div class="mySlides">
+            <a href="l5.html"><img src="l5.jpg"></a>
+            <div class="text"></div>
+          </div>
+          
+          </div>
+          <br>
+          
+          <div class="point">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+              </div>
+          <script>
+            let slideIndex = 1;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); 
+            }
+            </script>
+                 <h1>Latest Editions</h1>
+    </header>
+    <!-- ----------------------------------------products-------------------------------- -->
+    <div class="products">
+    <h1>products</h1>
+    <div class="box">
+        <div class="card">
+            <div class="image">
+                <a href="open.html"><img src="p1.jpg"></a>
+                <p> foot wear puma <br>₹2000</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open2.html"><img src="p2.jpg"></a>
+                <p>mens foot wear <br>₹1500</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open3.html"><img src="p3.jpg"></a>
+                <p>Trendy Running Shoes <br>₹1799</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open4.html"><img src="p4.jpg"></a>
+                <p>Stylish Casual <br>₹2000</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open5.html"><img src="p5.jpg"></a>
+                <p>Sneakers For Men <br>₹1899</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open6.html"><img src="p6.jpg"></a>
+                <p>Exclusive Sneaker <br>₹1999</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open7.html"><img src="p7.jpg"></a>
+                <p>Sneakers for Men<br> ₹2999</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open8.html"><img src="p8.jpg"></a>
+                <p>Colorblock women's fancy sneakers<br>₹1599 </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open9.html"><img src="p9.jpg"></a>
+                <p>Stylish Casual Sports Shoe<br>₹1399</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open10.html"><img src="p10.jpg"></a>
+                <p>Casual Sports shoe<br> ₹1599</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open11.html"><img src="p11.jpg"></a>
+                <p>FAST Trenddy Tainer<br>₹1000</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open12.html"><img src="p12.jpg"></a>
+                <p>Classic Sneakers For Men <br>₹2599</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open13.html"><img src="p13.jpg"></a>
+                <p>Ultralightweight | Comfortable <br>₹1499</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open14.html"><img src="p14.jpg"></a>
+                <p>PLANCK Smart Red Lace<br> ₹1299</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open15.html"><img src="p15.jpg"></a>
+                <p>Colorblock women's fancy sneakers<br>₹1599 </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open16.html"><img src="p16.jpg"></a>
+                <p>Jasper White Sneakers <br>₹1299</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="image">
+                <a href="open17.html"><img src="p17.jpg"></a>
+                <p>Classic Sneakers For Men <br>₹2599</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open18.html"><img src="p18.jpg"></a>
+                <p>Jasper White Sneakers <br>₹1299</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open19.html"><img src="p19.jpg"></a>
+                <p>Ultralightweight | Comfortable <br>₹1499</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <a href="open20.html"><img src="p20.jpg"></a>
+                <p>Classic Sneakers For Men <br>₹2599</p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
